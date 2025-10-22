@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yrik3\\OneDrive\\Рабочий стол\\dotNET\\lab_01_04\\lab_01_04\\lab_01_04.csproj",
+      "projectUniqueName": "C:\\Users\\Yrik3\\OneDrive\\Рабочий стол\\dotNET1\\lab_01_04\\lab_01_04\\lab_01_04.csproj",
       "projectName": "lab_01_04",
-      "projectPath": "C:\\Users\\Yrik3\\OneDrive\\Рабочий стол\\dotNET\\lab_01_04\\lab_01_04\\lab_01_04.csproj",
+      "projectPath": "C:\\Users\\Yrik3\\OneDrive\\Рабочий стол\\dotNET1\\lab_01_04\\lab_01_04\\lab_01_04.csproj",
       "packagesPath": "C:\\Users\\Yrik3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yrik3\\OneDrive\\Рабочий стол\\dotNET\\lab_01_04\\lab_01_04\\obj\\",
+      "outputPath": "C:\\Users\\Yrik3\\OneDrive\\Рабочий стол\\dotNET1\\lab_01_04\\lab_01_04\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

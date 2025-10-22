@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\",
+  "WorkspaceRootPath": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet\\lab_01_04\\lab_01_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet1\\lab_01_04\\lab_01_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet\\lab_01_04\\lab_01_04\\simpletaskplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:simpletaskplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet1\\lab_01_04\\lab_01_04\\enams\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:enams\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet\\lab_01_04\\lab_01_04\\workitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet1\\lab_01_04\\lab_01_04\\workitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:workitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet\\lab_01_04\\lab_01_04\\enams\\complexity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:enams\\complexity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet1\\lab_01_04\\lab_01_04\\simpletaskplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:simpletaskplanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet\\lab_01_04\\lab_01_04\\enams\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:enams\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet1\\lab_01_04\\lab_01_04\\enams\\sortcriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:enams\\sortcriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|c:\\users\\yrik3\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotnet1\\lab_01_04\\lab_01_04\\enams\\complexity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9400AC-7016-4EA5-A66B-C9353C5E955D}|lab_01_04.csproj|solutionrelative:enams\\complexity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Complexity.cs",
-              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\enams\\Complexity.cs",
-              "RelativeDocumentMoniker": "enams\\Complexity.cs",
-              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\enams\\Complexity.cs",
-              "RelativeToolTip": "enams\\Complexity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SortCriteria.cs",
+              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\enams\\SortCriteria.cs",
+              "RelativeDocumentMoniker": "enams\\SortCriteria.cs",
+              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\enams\\SortCriteria.cs",
+              "RelativeToolTip": "enams\\SortCriteria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T20:13:46.741Z"
+              "WhenOpened": "2025-10-22T08:09:09.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Priority.cs",
-              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\enams\\Priority.cs",
-              "RelativeDocumentMoniker": "enams\\Priority.cs",
-              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\enams\\Priority.cs",
-              "RelativeToolTip": "enams\\Priority.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Complexity.cs",
+              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\enams\\Complexity.cs",
+              "RelativeDocumentMoniker": "enams\\Complexity.cs",
+              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\enams\\Complexity.cs",
+              "RelativeToolTip": "enams\\Complexity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T20:13:33.614Z"
+              "WhenOpened": "2025-09-16T20:13:46.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\enams\\Priority.cs",
+              "RelativeDocumentMoniker": "enams\\Priority.cs",
+              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\enams\\Priority.cs",
+              "RelativeToolTip": "enams\\Priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T20:13:33.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "WorkItem.cs",
-              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\WorkItem.cs",
+              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\WorkItem.cs",
               "RelativeDocumentMoniker": "WorkItem.cs",
-              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\WorkItem.cs",
+              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\WorkItem.cs",
               "RelativeToolTip": "WorkItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T20:12:03.132Z"
+              "WhenOpened": "2025-09-16T20:12:03.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\Program.cs",
+              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T14:28:47.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SimpleTaskPlanner.cs",
-              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\SimpleTaskPlanner.cs",
+              "DocumentMoniker": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\SimpleTaskPlanner.cs",
               "RelativeDocumentMoniker": "SimpleTaskPlanner.cs",
-              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET\\lab_01_04\\lab_01_04\\SimpleTaskPlanner.cs",
+              "ToolTip": "C:\\Users\\Yrik3\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\dotNET1\\lab_01_04\\lab_01_04\\SimpleTaskPlanner.cs",
               "RelativeToolTip": "SimpleTaskPlanner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T20:10:19.93Z"
+              "WhenOpened": "2025-09-16T20:10:19.93Z",
+              "EditorCaption": ""
             }
           ]
         },

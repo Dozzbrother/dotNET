@@ -11,7 +11,42 @@ internal static class Program
         Console.InputEncoding = Encoding.UTF8;
 
         Console.WriteLine("Ласкаво просимо до Планувальника завдань!");
-        var workItems = new List<WorkItem>();
+
+        // 1. Додаємо список готових завдань для демонстрації
+        var workItems = new List<WorkItem>
+        {
+            new WorkItem
+            {
+                Title = "Закінчити практичну роботу",
+                Description = "Написати код і звіт",
+                DueDate = DateTime.Now.AddDays(2),
+                Priority = Priority.High,
+                Complexity = Complexity.Days,
+                CreationDate = DateTime.Now.AddDays(-1),
+                IsCompleted = false
+            },
+            new WorkItem
+            {
+                Title = "Сходити в магазин",
+                Description = "Купити молоко і хліб",
+                DueDate = DateTime.Now.AddDays(1),
+                Priority = Priority.Medium,
+                Complexity = Complexity.Hours,
+                CreationDate = DateTime.Now,
+                IsCompleted = false
+            },
+            new WorkItem
+            {
+                Title = "Зателефонувати другу",
+                Description = "Привітати з днем народження",
+                DueDate = DateTime.Now.AddDays(1), // Та сама дата, що й у "Сходити в магазин"
+                Priority = Priority.Medium,      // Той самий пріоритет
+                Complexity = Complexity.Minutes,
+                CreationDate = DateTime.Now.AddHours(-2),
+                IsCompleted = false
+            }
+        };
+
 
         while (true)
         {
@@ -19,14 +54,37 @@ internal static class Program
             Console.WriteLine("\n 1. Список задач\n 2. Додати нову задачу\n 3. Вихід");
             Console.Write("Ваш вибір (1-3): ");
             int menuChoice = int.Parse(Console.ReadLine() ?? "3");
-          
+
             switch (menuChoice)
             {
                 case 1:
                     if (workItems.Count > 0)
                     {
+                        // 2. Запитуємо у користувача про тип сортування
+                        Console.WriteLine("\n--- Виберіть критерій сортування ---");
+                        Console.WriteLine(" 1. За пріоритетом (стандартно)");
+                        Console.WriteLine(" 2. За датою виконання");
+                        Console.WriteLine(" 3. За назвою (в алфавітному порядку)");
+                        Console.Write("Ваш вибір (1-3): ");
+                        int sortChoice = int.Parse(Console.ReadLine() ?? "1");
+
+                        SortCriteria sortBy;
+                        switch (sortChoice)
+                        {
+                            case 2:
+                                sortBy = SortCriteria.ByDueDate;
+                                break;
+                            case 3:
+                                sortBy = SortCriteria.ByTitle;
+                                break;
+                            default:
+                                sortBy = SortCriteria.ByPriority;
+                                break;
+                        }
+
                         var planner = new SimpleTaskPlanner();
-                        var sortedItems = planner.CreatePlan(workItems.ToArray());
+                        // Передаємо обраний критерій у метод CreatePlan
+                        var sortedItems = planner.CreatePlan(workItems.ToArray(), sortBy);
 
                         Console.WriteLine("\n--- Ваш упорядкований план ---");
                         foreach (var item in sortedItems)

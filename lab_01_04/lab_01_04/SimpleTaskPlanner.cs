@@ -1,29 +1,46 @@
 ﻿public class SimpleTaskPlanner
 {
-    public WorkItem[] CreatePlan(WorkItem[] items)
+    // Оновлений метод, який приймає критерій сортування
+    public WorkItem[] CreatePlan(WorkItem[] items, SortCriteria sortBy)
     {
+        // Конвертуємо в List для зручного сортування за допомогою LINQ
         var itemsAsList = items.ToList();
-        itemsAsList.Sort(CompareWorkItems);
+
+        // Використовуємо LINQ для гнучкого сортування
+        switch (sortBy)
+        {
+            // Сортування за датою
+            case SortCriteria.ByDueDate:
+                itemsAsList = itemsAsList
+                    .OrderBy(item => item.DueDate)           // 1. За датою (зростання)
+                    .ThenByDescending(item => item.Priority) // 2. За пріоритетом (спадання)
+                    .ThenBy(item => item.Title)              // 3. За назвою (алфавіт)
+                    .ToList();
+                break;
+
+            // Сортування за назвою
+            case SortCriteria.ByTitle:
+                itemsAsList = itemsAsList
+                    .OrderBy(item => item.Title)             // 1. За назвою (алфавіт)
+                    .ThenByDescending(item => item.Priority) // 2. За пріоритетом (спадання)
+                    .ThenBy(item => item.DueDate)            // 3. За датою (зростання)
+                    .ToList();
+                break;
+
+            // Сортування за пріоритетом (як було раніше, за замовчуванням)
+            case SortCriteria.ByPriority:
+            default:
+                itemsAsList = itemsAsList
+                    .OrderByDescending(item => item.Priority) // 1. За пріоритетом (спадання)
+                    .ThenBy(item => item.DueDate)           // 2. За датою (зростання)
+                    .ThenBy(item => item.Title)             // 3. За назвою (алфавіт)
+                    .ToList();
+                break;
+        }
+
         return itemsAsList.ToArray();
     }
 
-    private static int CompareWorkItems(WorkItem firstItem, WorkItem secondItem)
-    {
-        // 1. Сортування за пріоритетом (спадання)
-        int priorityComparison = secondItem.Priority.CompareTo(firstItem.Priority);
-        if (priorityComparison != 0)
-        {
-            return priorityComparison;
-        }
-
-        // 2. Сортування за терміном виконання (зростання)
-        int dueDateComparison = firstItem.DueDate.CompareTo(secondItem.DueDate);
-        if (dueDateComparison != 0)
-        {
-            return dueDateComparison;
-        }
-
-        // 3. Сортування за назвою (алфавітний порядок)
-        return string.Compare(firstItem.Title, secondItem.Title, StringComparison.Ordinal);
-    }
+    // Старий метод CompareWorkItems більше не потрібен, 
+    // оскільки ми використовуємо гнучкіше сортування через LINQ.
 }
